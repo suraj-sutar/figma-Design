@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.container {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  background: linear-gradient(to right, #b0c83c, #68b649);
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.heading {
+  margin-top: 40px;
+  font-size: 15px;
+}
