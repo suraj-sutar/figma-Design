@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+ul {
+  display: flex;
+  /* flex-wrap: wrap; */
+  list-style: none;
+  background-color: #eaeaea;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+}
+ul li a:hover {
+  color: #31c54a;
+}
+
+.logo h2 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.icons i {
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+main {
+  background-image: url(background-img.png);
+  height: calc(100vh - 100px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-left {
+  padding-left: 200px;
+}
+
+.content-left h2 {
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.content-left p {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.content-left button {
+  background: linear-gradient(to right, #b0c83c, #31c54a);
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 40px;
+  margin-top: 25px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
